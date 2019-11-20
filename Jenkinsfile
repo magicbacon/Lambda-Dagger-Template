@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git clone 'https://github.com:magicbacon/Lambda-Dagger-Template.git'
+        git 'https://github.com:magicbacon/Lambda-Dagger-Template.git'
       }
     }
 
